@@ -1,42 +1,39 @@
-# Promptopia  Project
+# Dockerized Promptopia
 
-## Overview
-Promptopia is a web application designed to provide a platform for creating and sharing writing prompts. Users can explore various prompts. The project utilizes Next.js, React, Tailwind CSS, and integrates with MongoDB for data storage.
+This project is a Dockerized version of [Promptopia](https://github.com/Khemu1), a web application designed and developed by [Khemu1](https://github.com/Khemu1). The Dockerization and deployment on AWS EC2 were handled by [omartamer630](https://github.com/omartamer630).
 
-## Features
-- **Prompt Listings**
-  - Browse a collection of writing prompts created by users.
-  - Each prompt includes details such as tag and description.
-  
-- **Search and Filter**
-  - Search prompts by keyword or filter by category to find specific prompts.
+## Table of Contents
 
-- **User Authentication**
-  - Secure user authentication and authorization using NextAuth.js with OAuth providers like Google.
+- [About the Project](#about-the-project)
+- [Getting Started](#getting-started)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Dockerization](#dockerization)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
 
-- **User Profile**
-  - Users can manage their created prompts.
+## About the Project
 
-- **Responsive Design**
-  - Optimized for desktop, tablet, and mobile devices to provide a seamless user experience.
- 
-## Installation
+Promptopia is a web application that offers [describe the application's purpose and features briefly]. This Dockerized version simplifies the setup and deployment process, allowing the application to run in isolated containers.
 
-1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/Khemu1/promptopia
-    cd promptopia
-    ```
+## Getting Started
 
-2. **Install dependencies**:
-    ```bash
-    npm install
-    ```
-    
-3. **Start the development server**:
-    ```bash
-    npm run dev
-    ```
+These instructions will guide you on how to get a copy of the project up and running on your local machine for development and testing purposes.
 
-4. **Access the application**:
-   Open your browser and navigate to `http://localhost:3000`.
+### Prerequisites
+
+- Docker installed on your machine.
+- Docker Compose installed.
+- AWS account with access to EC2.
+- Basic knowledge of Docker, Docker Compose, and AWS EC2.
+
+### Installation
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/omartamer630/dockerized-promptopia.git
+   cd dockerized-promptopia
