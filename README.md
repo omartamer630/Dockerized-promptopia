@@ -49,7 +49,7 @@ These instructions will guide you on how to get a copy of the project up and run
 docker compose -f docker-compose.yml -f docker-compose.dev.yml up -d --build || docker compose -f docker-compose.yml -f docker-compose.prod.yml up -d --build
 ```
 
-# The application will be accessible at http://localhost:3000 or http://ec2-44-204-168-247.compute-1.amazonaws.com:3000 for browser search.
+# The application will be accessible at ```http://localhost:3000``` or ```http://ec2-44-204-168-247.compute-1.amazonaws.com:3000 for browser search```.
 
 ### Deployment
 
