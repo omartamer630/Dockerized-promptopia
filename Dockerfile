@@ -7,7 +7,6 @@ WORKDIR /promptopia
 # Install dependencies
 COPY *.json *.config.js *.mjs ./
 RUN npm install
-RUN npm vercel
 # Development stage
 FROM base AS development
 
