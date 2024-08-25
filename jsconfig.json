@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@components/Profile": ["components/Profile"],
+      "@components/PromptCard": ["components/PromptCard"],
+      "@components/Nav": ["components/Nav"],
+      "@components/Provider": ["components/Provider"],
+      "@components/Feed": ["components/Feed"],
+      "@components/Form": ["components/Form"],
+      "@styles/global.css": ["styles/global.css"],
+      "@utils/database": ["utils/database"],
+      "@models/user": ["models/user"],
+      "@models/prompt": ["models/prompt"],
+    }
+  }
+}
