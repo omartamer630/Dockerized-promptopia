@@ -5,7 +5,7 @@ FROM node:18 AS base
 WORKDIR /promptopia
 
 # Install dependencies
-COPY package*.json ./
+COPY *.json *.config.js *.mjs ./
 RUN npm install
 
 # Development stage
@@ -27,7 +27,7 @@ FROM base AS production
 WORKDIR /promptopia
 
 # Copy only production dependencies
-COPY package*.json ./
+COPY package*.json  ./
 RUN npm install --only=production
 
 # Copy built files from the development stage
