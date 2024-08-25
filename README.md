@@ -37,6 +37,7 @@ These instructions will guide you on how to get a copy of the project up and run
    ```bash
    git clone https://github.com/omartamer630/dockerized-promptopia.git
    cd dockerized-promptopia
+   
 ### Dockerization
 
 # This project has been dockerized to simplify the development and deployment process.
@@ -49,7 +50,6 @@ docker compose -f docker-compose.yml -f docker-compose.dev.yml up -d --build || 
 ```
 
 # The application will be accessible at http://localhost:3000 or http://ec2-44-204-168-247.compute-1.amazonaws.com:3000 for browser search.
-
 
 ### Deployment
 
@@ -75,11 +75,9 @@ docker compose -f docker-compose.yml -f docker-compose.prod.yml up -d
 # 4. Push to the branch
 # 5. Submit a pull request
 
-
 ### License
 
 # This project is licensed under the MIT License. See the LICENSE file for more details.
-
 
 ### Acknowledgements
 
