@@ -55,7 +55,7 @@ http://localhost:3000
 ``` 
 or 
 ```bash
-http://ec2-44-204-168-247.compute-1.amazonaws.com:3000 
+http://ec2-13-38-230-173.eu-west-3.compute.amazonaws.com:3000/
 ``` 
 for browser search.
 
