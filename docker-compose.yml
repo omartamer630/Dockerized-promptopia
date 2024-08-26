@@ -2,6 +2,7 @@ version: "3"
 services:
   promptopia:
     container_name: promptopia-app-container
+    image: omartamer12/promptopia
     env_file:
       - ./.env
     ports:

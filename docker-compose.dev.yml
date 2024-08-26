@@ -5,6 +5,6 @@ services:
       context: .
       target: development
     volumes:
-      - ./src:/app/src:ro
+      - ./promptopia:/app/:ro
     environment:
       - NODE_ENV=development
